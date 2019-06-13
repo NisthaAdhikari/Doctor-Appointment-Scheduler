@@ -1,0 +1,117 @@
+/**
+ * Created by Sushant Gauchan
+*/
+
+@import "components/fonts_and_colors";
+
+html{
+  height: 100%;
+}
+
+body{
+  background-color: #fff;
+  height: 100%;
+  font-family: $font-type-2;
+  font-size: 16px;
+  font-weight: 400;
+  color: $font-color;
+
+
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: inherit;
+}
+
+a:link, a:visited{
+  text-decoration: none
+}
+a:focus{
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-type-1;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 23px;
+}
+
+p{
+  color: $font-color-light;
+  margin-bottom: 12px;
+  text-align: justify;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  &:hover, &:focus{
+    text-decoration: none
+  }
+}
+
+#wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.slick-slider{
+  .slick-slide{
+    outline: none;
+  }
+}
+
+
+.custom-container{
+  max-width: 1920px;
+  margin: auto;
+  padding: 65px 150px;
+  &.medium-width-container{
+    max-width: 1420px;
+  }
+
+
+  &.remove-top-bottom{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+
+
+.um-btn{
+  font-size: 14px;
+  padding: 10px 10px;
+  color: black;
+  background-color: $grey-color;
+  text-transform: capitalize;
+  font-weight: 100;
+  border: 0;
+  outline: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  &:hover,&:focus{
+    color: black;
+  }
+}
+
